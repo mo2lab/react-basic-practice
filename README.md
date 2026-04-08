@@ -1,16 +1,36 @@
-# React + Vite
+# React 基礎学習プロジェクト
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Reactの基本的な概念を理解し、実際に手を動かして習得するための学習用リポジトリです。
+Viteを使用して環境構築を行っています。
 
-Currently, two official plugins are available:
+## 📝 このプロジェクトで学んでいること
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+現在、以下の項目についてコードを書きながら学習を進めています。
 
-## React Compiler
+### 1. コンポーネントとProps
+- コンポーネントの作成方法（PascalCaseの原則）
+- 親コンポーネントから子コンポーネントへのデータの受け渡し（Props）
+- `children` を使った要素の受け取り
+- 分割代入によるコードの簡略化
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. State（状態管理）
+- `useState` フックを使用した画面の状態管理
+- 更新用関数（set関数）の動作と、Reactの再レンダリングの仕組み
+- 非同期的な更新（バッチ処理）の注意点
+- 更新用関数に関数を渡す書き方（prevを受け取る手法）
 
-## Expanding the ESLint configuration
+### 3. CSS in JS
+- インラインスタイルによるスタイリングの基本
+- オブジェクト形式でのスタイル定義
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 開発環境
+
+- **Framework:** React
+- **Build Tool:** Vite
+- **Language:** JavaScript (ES6+)
+
+## 🛠 実行方法
+
+1. リポジトリをクローンまたはダウンロード
+2. `npm install` でパッケージをインストール
+3. `npm run dev` でローカルサーバーを起動
