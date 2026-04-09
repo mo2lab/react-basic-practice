@@ -4,6 +4,9 @@
  * @param {ReactNode} children - タグの間に挟まれた要素（テキストや他のタグ）
  */
 export const ColorfulMessage = ({ color, children }) => {
+  // 再レンダリングの確認用
+  console.log("--App--");
+
   // スタイルオブジェクトの定義
   const contentStyle = {
     color, // プロパティ名と変数名が同じため、省略記法（ES6）を使用

@@ -5,9 +5,5 @@ import { App } from './App';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
-root.render(
-  <StrictMode>
-    {/* コンポーネントを画面に表示（HTMLのタグのように使用する） */}
-    <App />
-  </StrictMode>
-);
+// 再レンダリングの理解のため、一時的に<StrictMode>を外します
+root.render(<App />);
